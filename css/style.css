@@ -1,0 +1,77 @@
+ *{
+  margin: 0;
+  padding: 0;
+ }
+
+a{
+	text-decoration: none;
+}
+ .bar{
+	text-align: center;
+	background-color: grey;
+	height: 100px;
+	line-height: 100px;
+
+}
+.bar ul li {
+display: inline-block;
+}
+.bar ul li a{
+	color: black;
+	font-weight: 600px;
+	font-size: 15px;
+	font-style: italic;
+	margin: 15px;
+	transition: 0.5s;
+}
+.bar ul li a:hover{
+	color: red;
+	font-size: 25px;
+	transition: 0.5s;
+}
+.banner{
+	/*background-image: url(../img/banner.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;*/
+	background-position: center;
+	height: 100vh;
+}
+.banner{
+	text-align: center;
+    color: grey;
+}
+.social-media ul li {
+display: inline-block;
+text-align: center;
+margin: 20px;
+font-size: 50px;
+margin-top: 80px;
+color:rgb( 255, 87, 51 
+);
+}
+
+.social-media ul li a :hover{
+	transition: 1s;
+	font-size: 60px;
+	color: red;
+}
+
+
+.social-media ul li a{
+	background-color: grey;
+	height: 80px;
+	width: 80px;
+	border-radius: 100%;
+}
+
+.social-media ul li a i{
+	height: 80px;
+	width: 80px;
+	line-height: 80px;
+    color: white;
+}
+
+
+
+
+
